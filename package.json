@@ -1,0 +1,45 @@
+{
+  "name": "imf-gadget-api",
+  "version": "1.0.0",
+  "description": "Secure API for managing IMF gadgets",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon --exec ts-node src/app.ts",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "postgresql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/continuation-local-storage": "^3.2.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/node": "^22.10.10",
+    "@types/pg": "^8.11.11",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.9",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@types/sequelize": "^4.28.20",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5",
+    "uuid": "^11.0.5"
+  }
+}
